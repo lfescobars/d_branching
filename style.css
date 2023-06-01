@@ -1,7 +1,15 @@
 body {
-  background: #342E37;
-  }
+  text-align: center;
+  color: #436857;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
 
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
 .container {
   padding-top: 30px;
 } 
@@ -35,11 +43,11 @@ form {
   padding: 20px 80px;
   margin: 0 auto;
   border-radius: 20px;
-  box-shadow: 0 6px #2E282A;
+  box-shadow: 0 6px red;
 }
   
 .btn a {
-    color: white;
+    color: black;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 300;
@@ -51,9 +59,11 @@ form {
 .btn:hover {
   box-shadow: 0 4px #2E282A;
   top: 2px; 
+  background-color: #676264;
 }
 
 .btn:active {
   box-shadow: none;
   top: 6px; 
 } 
+
